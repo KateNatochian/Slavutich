@@ -343,8 +343,8 @@ html {
   }
 }
 @media (max-width: 420px) {
-  .header {
-    width: 420px;
+  .header_menu_button {
+    right: 235px;
   }
   .section1_h1title {
     padding-left: 50px;
