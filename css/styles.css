@@ -333,20 +333,33 @@ html {
     width: 375px;
     height: 300px;
   }
-  .tab1 {
-    margin-left: 201px;
-  }
-  .tab1_rus {
-    margin-left: 207px;
-  }
-  .tab1_eng {
-    margin-left: 156px;
-  }
+
   .tab2 {
     margin-left: 60px;
   }
   .footer {
     font-size: 12px;
     text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .header {
+    width: auto;
+  }
+  .section1_h1title {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .section1_subtitle {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section2_text {
+    padding: 50px 50px;
+  }
+
+  .tab2 {
+    margin-left: 0px;
   }
 }
