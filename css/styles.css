@@ -344,7 +344,7 @@ html {
 }
 @media (max-width: 420px) {
   .header {
-    width: auto;
+    width: 420px;
   }
   .section1_h1title {
     padding-left: 50px;
